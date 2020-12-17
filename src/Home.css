@@ -1,0 +1,55 @@
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    
+}
+.first_box_product {
+    margin-left: 15px;
+}
+.last_box_product{
+    margin-right: 15px;
+}
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+   max-width: 100%;
+}
+
+
+
+.home_image {
+ max-width:100%;
+ z-index: -1;
+ margin-bottom: -150px;
+ mask-image:linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
