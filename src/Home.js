@@ -8,6 +8,7 @@ function Home() {
     const prductlistarray =[
         { 
             title:"Home essentials | Amazon Brands & more",
+           
             image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
             image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
             image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
@@ -17,6 +18,7 @@ function Home() {
 
         {
              title:"Top picks for your home",
+             title1:"Top picks for your home",
             image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
             image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
             image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
@@ -29,6 +31,7 @@ function Home() {
       const productarraycard = prductlistarray.map((productavatarcardapp, i) => {
         return  <Product  
                title={prductlistarray[i].title} 
+               title1={prductlistarray[i].title1} 
                image1={prductlistarray[i].image1} 
                image2={prductlistarray[i].image2}
                image3={prductlistarray[i].image3}
@@ -60,20 +63,22 @@ function Home() {
         image2={prductlistarray[0].image2}
         image3={prductlistarray[0].image3}
         image4={prductlistarray[0].image4}/>
+         <Product 
+        title ={prductlistarray[0].title}
+        image1={prductlistarray[0].image1}
+        image2={prductlistarray[0].image2}
+        image3={prductlistarray[0].image3}
+        image4={prductlistarray[0].image4}/>
 
-    <Product 
-    title ={prductlistarray[0].title}
-    image1={prductlistarray[0].image1}
-    image2={prductlistarray[0].image2}
-    image3={prductlistarray[0].image3}
-    image4={prductlistarray[0].image4}/>
-
-            <div className="last_box_product"> 
+      <div className="last_box_product"> 
 
             <SignInSecurely />
 
-            </div>
+      </div>
 </div>
+
+
+
        
 </div>
 

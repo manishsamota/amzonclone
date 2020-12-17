@@ -1,11 +1,11 @@
 import React from 'react'
 import './ProductFullImage.css'
 
-function ProductFullImage(title,image1) {
+function ProductFullImage({title1,image5}) {
     return (
         <div className="productfullimge_main">
-            <h2>{title}</h2>
-            <img src={image1} alt="" class="real_image"/>
+            <h2>{title1}</h2>
+            <img src={image5} alt="" class="real_image"/>
         </div>
     )
 }
