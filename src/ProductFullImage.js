@@ -11,9 +11,9 @@ function ProductFullImage({title1,image5}) {
          <div>
             <img src={image5} alt="" class="real_big_image"/>
          </div>
-
-         <div>    
-            <a href="">See more</a>
+          <br/>    
+            <div>    
+            <a className="full_Img_a" href="">See more</a>
         </div>
         </div>
     )

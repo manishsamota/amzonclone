@@ -4,6 +4,8 @@ import Product from './Product.js';
 import ProductFullImage from './ProductFullImage.js';
 import SignInSecurely from './SignInSecurely.js';
 
+import FirstLineHorizontal from './FirstLineHorizontal'
+
 function Home() {
     const prductlistarray =[
         { 
@@ -17,6 +19,7 @@ function Home() {
            subt2:"Cloth organizers, boxes & baskets",
            subt3:"Wall stickers & clocks",
            subt4:"Smart blubes & string lights",
+
         },
 
         {
@@ -61,8 +64,7 @@ function Home() {
                subt2={prductlistarray[i].subt2}
                subt3={prductlistarray[i].subt3}
                subt4={prductlistarray[i].subt4}
-               
-               
+                            
   />
     } 
       )
@@ -170,6 +172,11 @@ function Home() {
         subt4={prductlistarray[0].subt4}
         />  
       </div>
+</div>
+ 
+{/* Three row horizontal*/}
+<div>
+         < FirstLineHorizontal  />
 </div>
        
 </div>

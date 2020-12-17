@@ -1,0 +1,46 @@
+.title_first_word{
+    font-size: 22px;
+    color: #444;
+    line-height: 1.5 !important;
+    font-weight: 400;
+    
+}
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #007185;
+    margin-left: 8px;
+    font-size: 13px;
+}
+    a:hover {
+    text-decoration: underline;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-color: currentcolor;
+        text-decoration-thickness: auto;
+    cursor: pointer;
+    color: #C7511F;
+}
+
+.fisrt_H_L_main{
+  
+ 
+    align-items: center;
+
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    
+    padding: 10px;
+    max-width: 95%;
+    min-width: 95%;
+    background-color: white !important;
+    z-index: 10;
+    box-shadow: 2px 2px 2px #fff;
+}
+.first_box_product{
+    display: flex;
+}
+.this_flex{
+  display: flex;
+}
