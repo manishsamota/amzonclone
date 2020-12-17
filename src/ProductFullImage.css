@@ -11,3 +11,8 @@
     background-color: white;
     z-index: 1;
 }
+.real_image{
+   
+max-width: 100%;
+margin: auto;
+}

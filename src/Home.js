@@ -17,13 +17,31 @@ function Home() {
         },
 
         {
-             title:"Top picks for your home",
-             title1:"Top picks for your home",
+            title:"Top picks for your home",
             image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
             image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
             image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
             image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
-        }
+        },
+        
+         {
+            title:"Top picks for your home",
+            image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
+            image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
+            image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
+            image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
+        },
+         {
+            title:"Top picks for your home",
+            image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
+            image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
+            image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
+            image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
+        },
+         {
+            title1:"Top picks for your home",
+            image5:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/GW/Dashboard/WFH_GW_DC_379x304._SY304_CB417122473_.jpg"
+         },
 
     ]
     
@@ -48,6 +66,9 @@ function Home() {
                 <img className="home_image" src="https://m.media-amazon.com/images/G/31/img20/Shoes/December/SSW/3000x770-PC_ENGLISH._CB413166242_.jpg" alt="" />
             </div>
              </div>
+
+  {/* first row is started */}
+
 <div className="home_row"> 
       <div className="first_box_product">       
         <Product 
@@ -73,12 +94,48 @@ function Home() {
       <div className="last_box_product"> 
 
             <SignInSecurely />
-
       </div>
 </div>
+{/* first row is finished */}
 
 
 
+{/* second row is started */}
+<div className="home_row"> 
+      <div className="first_box_product">       
+        <Product 
+        title ={prductlistarray[0].title}
+        image1={prductlistarray[0].image1}
+        image2={prductlistarray[0].image2}
+        image3={prductlistarray[0].image3}
+        image4={prductlistarray[0].image4}
+        />                
+      </div>
+
+   <ProductFullImage
+  title1 ={prductlistarray[4].title1} 
+  image5 ={prductlistarray[4].image5} 
+   />
+
+   <Product 
+        title ={prductlistarray[0].title}
+        image1={prductlistarray[0].image1}
+        image2={prductlistarray[0].image2}
+        image3={prductlistarray[0].image3}
+        image4={prductlistarray[0].image4}
+        />  
+
+   <div className="last_box_product"> 
+
+            <Product 
+        title ={prductlistarray[0].title}
+        image1={prductlistarray[0].image1}
+        image2={prductlistarray[0].image2}
+        image3={prductlistarray[0].image3}
+        image4={prductlistarray[0].image4}
+        />  
+      </div>
+</div>
        
 </div>
 
