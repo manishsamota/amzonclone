@@ -13,7 +13,10 @@ function Home() {
             image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
             image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
             image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg",
-        
+           subt1:"Bedsheets, curtains & more",
+           subt2:"Cloth organizers, boxes & baskets",
+           subt3:"Wall stickers & clocks",
+           subt4:"Smart blubes & string lights",
         },
 
         {
@@ -39,7 +42,7 @@ function Home() {
             image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
         },
          {
-            title1:"Top picks for your home",
+            title1:"For a productive home office",
             image5:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/GW/Dashboard/WFH_GW_DC_379x304._SY304_CB417122473_.jpg"
          },
 
@@ -54,6 +57,11 @@ function Home() {
                image2={prductlistarray[i].image2}
                image3={prductlistarray[i].image3}
                image4={prductlistarray[i].image4}
+               subt1={prductlistarray[i].subt1} 
+               subt2={prductlistarray[i].subt2}
+               subt3={prductlistarray[i].subt3}
+               subt4={prductlistarray[i].subt4}
+               
                
   />
     } 
@@ -76,20 +84,35 @@ function Home() {
         image1={prductlistarray[0].image1}
         image2={prductlistarray[0].image2}
         image3={prductlistarray[0].image3}
-        image4={prductlistarray[0].image4}/>                
+        image4={prductlistarray[0].image4}
+        subt1={prductlistarray[0].subt1}
+        subt2={prductlistarray[0].subt2}
+        subt3={prductlistarray[0].subt3}
+        subt4={prductlistarray[0].subt4}
+        />                
       </div>
       <Product 
         title ={prductlistarray[0].title}
         image1={prductlistarray[0].image1}
         image2={prductlistarray[0].image2}
         image3={prductlistarray[0].image3}
-        image4={prductlistarray[0].image4}/>
+        image4={prductlistarray[0].image4}
+        subt1={prductlistarray[0].subt1}
+        subt2={prductlistarray[0].subt2}
+        subt3={prductlistarray[0].subt3}
+        subt4={prductlistarray[0].subt4}
+        />
          <Product 
         title ={prductlistarray[0].title}
         image1={prductlistarray[0].image1}
         image2={prductlistarray[0].image2}
         image3={prductlistarray[0].image3}
-        image4={prductlistarray[0].image4}/>
+        image4={prductlistarray[0].image4}
+        subt1={prductlistarray[0].subt1}
+        subt2={prductlistarray[0].subt2}
+        subt3={prductlistarray[0].subt3}
+        subt4={prductlistarray[0].subt4}
+        />
 
       <div className="last_box_product"> 
 
@@ -109,6 +132,10 @@ function Home() {
         image2={prductlistarray[0].image2}
         image3={prductlistarray[0].image3}
         image4={prductlistarray[0].image4}
+        subt1={prductlistarray[0].subt1}
+        subt2={prductlistarray[0].subt2}
+        subt3={prductlistarray[0].subt3}
+        subt4={prductlistarray[0].subt4}
         />                
       </div>
 
@@ -123,6 +150,10 @@ function Home() {
         image2={prductlistarray[0].image2}
         image3={prductlistarray[0].image3}
         image4={prductlistarray[0].image4}
+        subt1={prductlistarray[0].subt1}
+        subt2={prductlistarray[0].subt2}
+        subt3={prductlistarray[0].subt3}
+        subt4={prductlistarray[0].subt4}
         />  
 
    <div className="last_box_product"> 
@@ -133,6 +164,10 @@ function Home() {
         image2={prductlistarray[0].image2}
         image3={prductlistarray[0].image3}
         image4={prductlistarray[0].image4}
+        subt1={prductlistarray[0].subt1}
+        subt2={prductlistarray[0].subt2}
+        subt3={prductlistarray[0].subt3}
+        subt4={prductlistarray[0].subt4}
         />  
       </div>
 </div>

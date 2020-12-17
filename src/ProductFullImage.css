@@ -9,10 +9,16 @@
     max-width: 330px;
     min-width: 320px;
     background-color: white;
-    z-index: 1;
+    z-index: 10;
+    box-shadow: 2px 2px 2px #fff;
 }
-.real_image{
-   
+.main_title{
+    padding-left: 8px !important;
+    font-size: 14px;
+    
+}
+.real_big_image{
+height: 110%;  
 max-width: 100%;
 margin: auto;
 }

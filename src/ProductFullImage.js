@@ -4,8 +4,17 @@ import './ProductFullImage.css'
 function ProductFullImage({title1,image5}) {
     return (
         <div className="productfullimge_main">
-            <h2>{title1}</h2>
-            <img src={image5} alt="" class="real_image"/>
+            <div className="main_title">
+                <h2>{title1}</h2>
+            </div>
+            
+         <div>
+            <img src={image5} alt="" class="real_big_image"/>
+         </div>
+
+         <div>    
+            <a href="">See more</a>
+        </div>
         </div>
     )
 }
