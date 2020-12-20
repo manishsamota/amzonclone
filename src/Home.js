@@ -3,8 +3,9 @@ import './Home.css';
 import Product from './Product.js';
 import ProductFullImage from './ProductFullImage.js';
 import SignInSecurely from './SignInSecurely.js';
-
 import FirstLineHorizontal from './FirstLineHorizontal'
+import SecondLineHorizontal from './SecondLineHorizontal';
+import SixLineHorizontal from './SixLineHorizontal';
 
 function Home() {
     const prductlistarray =[
@@ -178,6 +179,96 @@ function Home() {
 <div>
          < FirstLineHorizontal  />
 </div>
+
+<div>
+         <SecondLineHorizontal />
+</div>
+
+{/* Horizontal line five  start*/}
+<div className="hlfive">
+          <div className="hlfivefirstpro">
+          <ProductFullImage
+            title1={prductlistarray[4].title1}
+            image5={prductlistarray[4].image5}
+          />
+          </div>
+
+          <div className="hlfiveallpro">
+            <Product
+              title={prductlistarray[0].title}
+              image1={prductlistarray[0].image1}
+              image2={prductlistarray[0].image2}
+              image3={prductlistarray[0].image3}
+              image4={prductlistarray[0].image4}
+              subt1={prductlistarray[0].subt1}
+              subt2={prductlistarray[0].subt2}
+              subt3={prductlistarray[0].subt3}
+              subt4={prductlistarray[0].subt4}
+            /> 
+          </div>
+
+          <div className="hlfiveallpro">
+            <Product
+              title={prductlistarray[0].title}
+              image1={prductlistarray[0].image1}
+              image2={prductlistarray[0].image2}
+              image3={prductlistarray[0].image3}
+              image4={prductlistarray[0].image4}
+              subt1={prductlistarray[0].subt1}
+              subt2={prductlistarray[0].subt2}
+              subt3={prductlistarray[0].subt3}
+              subt4={prductlistarray[0].subt4}
+            />
+          </div>
+
+          <div className="last_box_product">
+            <Product
+              title={prductlistarray[0].title}
+              image1={prductlistarray[0].image1}
+              image2={prductlistarray[0].image2}
+              image3={prductlistarray[0].image3}
+              image4={prductlistarray[0].image4}
+              subt1={prductlistarray[0].subt1}
+              subt2={prductlistarray[0].subt2}
+              subt3={prductlistarray[0].subt3}
+              subt4={prductlistarray[0].subt4}
+            />
+          </div>
+
+
+</div>
+
+        {/* Horizontal line five  end*/}
+
+       {/* Horizontal line six start  */}
+
+           <SixLineHorizontal />
+        {/*Horizontal line six end  */}
+
+        {/* Horizontal line seven start  */}
+
+        {/*Horizontal line seven end  */}
+
+        {/* Horizontal line eight start  */}
+
+        {/*Horizontal line eight end  */}
+
+        {/* Horizontal line nine start  */}
+
+        {/*Horizontal line nine end  */}
+
+        {/* Horizontal line 10 start  */}
+
+        {/*Horizontal line 10 end  */}
+
+        {/* Horizontal line 11 start  */}
+
+        {/*Horizontal line 11 end  */}
+
+        {/* Horizontal line 12 start  */}
+
+        {/*Horizontal line 13 end  */}
+        <menu />
        
 </div>
 

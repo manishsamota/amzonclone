@@ -1,0 +1,17 @@
+.shlpros{
+    display: flex;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.shlfp{
+    margin-left: 0px !important;
+}
+
+.shlap{
+     margin-left: 0px;
+}
+.slhlastpro{
+    margin-top: 50px;
+}

@@ -148,13 +148,13 @@ function FirstLineHorizontal() {
                 />
             </div>
             <div>
-                <HorizontalProduct
+                {/* <HorizontalProduct
                     image10={HorizontalProductlistarray[6].image10}
                     srate={HorizontalProductlistarray[6].srate}
 
                     erate={HorizontalProductlistarray[6].erate}
                     time={HorizontalProductlistarray[6].time}
-                />
+                /> */}
             </div>
          
             

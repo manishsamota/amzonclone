@@ -1,12 +1,22 @@
 
 .SubImg{
-    margin-left: 12px;
-   margin-top: 4px;
+    margin-left: 11px;  
+   margin-top: auto;
+   margin-bottom: auto;
+   text-align: center;
+    min-width: 145px;
+    max-width: 270px;
+    max-height: 200px;
+
 }
 .dealPrice{
        
-    margin-left: 8px;
+    margin-left: 9px;
 
+}
+.h_product{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .rs_text{

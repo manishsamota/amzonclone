@@ -30,6 +30,16 @@
 }
 
 
+.hlfive{
+    display: flex;
+}
+.hlfivefirstpro{
+    margin-left: 25px;
+}
+
+.hlfiveallpro{
+    margin-left: 5px;
+}
 
 
 
