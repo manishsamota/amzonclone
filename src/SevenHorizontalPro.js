@@ -2,42 +2,39 @@ import React from 'react'
 import OnlyImageHorizontalPro from './OnlyImageHorizontalPro.js'
 import './SecondLineHorizontal.css'
 
-function SixLineHorizontal() {
- 
+function SevenHorizontalPro() {
     const SecondHLProarray = [
         {
 
-            slhImages: "https://m.media-amazon.com/images/I/31XpEzz8oVL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/61HAb7mz1-L._AC_SY200_.jpg",
         },
         {
 
-            slhImages: "https://m.media-amazon.com/images/I/41tGEvMDdLL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/41TpEE0H7lL._AC_SY200_.jpg",
         },
         {
-            slhImages: "https://m.media-amazon.com/images/I/31+d4s0JREL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/51M-0OzscIL._AC_SY200_.jpg",
         },
 
         {
-            slhImages: "https://m.media-amazon.com/images/I/317lyvPC6vL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/31QRFk+9r0L._AC_SY200_.jpg",
 
         },
 
 
         {
-            slhImages: "https://m.media-amazon.com/images/I/31WbYQd8PbL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/41SucQ6QKsL._AC_SY200_.jpg",
         },
         {
-            slhImages: "https://m.media-amazon.com/images/I/41CW6vdWqmL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/41CIWUHOXVL._AC_SY200_.jpg",
         },
-        {
-            slhImages: "https://m.media-amazon.com/images/I/31vTxfl86kL._AC_SY200_.jpg",
-        },
+      
 
     ]
 
 
     const SecondHLProarraycard = SecondHLProarray.map((SecondHLProavatarcardapp, i) => {
-        return <SixLineHorizontal
+        return <SevenHorizontalPro
             slhtitle={SecondHLProarray[i].slhtitle}
             linkN={SecondHLProarray[i].linkN}
             slhImages={SecondHLProarray[i].slhImages}
@@ -54,8 +51,10 @@ function SixLineHorizontal() {
 
         <div>
             <div className="fisrt_H_L_main">
-                <span className="title_first_word">Up to 60% off | Unboxed & like-new </span>
-                <a className="link" src="">See all deals</a>
+                <span className="title_first_word">Up to 60% off | Home essentials from Indian startups</span>
+
+            
+                <a className="link" src="">See all offers</a>
 
                 <div className="shlpros">
                     <div className="shlfp">
@@ -84,23 +83,18 @@ function SixLineHorizontal() {
 
                             slhImages={SecondHLProarray[4].slhImages} />
                     </div>
-                    <div className="shlap sixhsep">
+                    <div className="shlap sixhsep slhlastpro">
                         <OnlyImageHorizontalPro
 
                             slhImages={SecondHLProarray[5].slhImages} />
                     </div>
-                    <div className="shlap slhlastpro">
-                        <OnlyImageHorizontalPro
-
-                            slhImages={SecondHLProarray[6].slhImages} />
-                    </div>
+                   
 
 
                 </div>
             </div>
         </div>
     )
-
 }
 
-export default SixLineHorizontal
+export default SevenHorizontalPro

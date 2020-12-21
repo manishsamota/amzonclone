@@ -11,7 +11,24 @@
 
 .shlap{
      margin-left: 0px;
+     margin-top: auto;
+     margin-bottom :auto;
 }
 .slhlastpro{
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.sixhsep{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ninhaip{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.TwelfthLHPro{
+    margin-left: 5px;
 }

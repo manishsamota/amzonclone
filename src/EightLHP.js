@@ -2,42 +2,45 @@ import React from 'react'
 import OnlyImageHorizontalPro from './OnlyImageHorizontalPro.js'
 import './SecondLineHorizontal.css'
 
-function SixLineHorizontal() {
- 
+
+function EightLHP() {
     const SecondHLProarray = [
         {
 
-            slhImages: "https://m.media-amazon.com/images/I/31XpEzz8oVL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/412xwkkxTsL._AC_SY200_.jpg",
         },
         {
 
-            slhImages: "https://m.media-amazon.com/images/I/41tGEvMDdLL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/51ufe-rSduL._AC_SY200_.jpg",
         },
         {
-            slhImages: "https://m.media-amazon.com/images/I/31+d4s0JREL._AC_SY200_.jpg",
-        },
-
-        {
-            slhImages: "https://m.media-amazon.com/images/I/317lyvPC6vL._AC_SY200_.jpg",
-
+            slhImages: "https://m.media-amazon.com/images/I/41NgoA+YS7L._AC_SY200_.jpg",
         },
 
+        {
+            slhImages: "https://m.media-amazon.com/images/I/41XdRy2BxfL._AC_SY400_.jpg",
+
+        },
+
 
         {
-            slhImages: "https://m.media-amazon.com/images/I/31WbYQd8PbL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/51mIv4H149L._AC_SY200_.jpg",
         },
         {
-            slhImages: "https://m.media-amazon.com/images/I/41CW6vdWqmL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/61f4lvZxBDL._AC_SY400_.jpg",
         },
         {
-            slhImages: "https://m.media-amazon.com/images/I/31vTxfl86kL._AC_SY200_.jpg",
+            slhImages: "https://m.media-amazon.com/images/I/41nU4iqzBxL._AC_SY200_.jpg",
+        },
+        {
+            slhImages: "https://m.media-amazon.com/images/I/41+sPT8vIwL._AC_SY200_.jpg",
         },
 
     ]
 
 
     const SecondHLProarraycard = SecondHLProarray.map((SecondHLProavatarcardapp, i) => {
-        return <SixLineHorizontal
+        return <EightLHP
             slhtitle={SecondHLProarray[i].slhtitle}
             linkN={SecondHLProarray[i].linkN}
             slhImages={SecondHLProarray[i].slhImages}
@@ -54,8 +57,10 @@ function SixLineHorizontal() {
 
         <div>
             <div className="fisrt_H_L_main">
-                <span className="title_first_word">Up to 60% off | Unboxed & like-new </span>
-                <a className="link" src="">See all deals</a>
+                <span className="title_first_word">Up to 70% off | Clothing, bags & more from Indian startups</span>
+
+
+                <a className="link" src="">See all offers</a>
 
                 <div className="shlpros">
                     <div className="shlfp">
@@ -84,23 +89,28 @@ function SixLineHorizontal() {
 
                             slhImages={SecondHLProarray[4].slhImages} />
                     </div>
-                    <div className="shlap sixhsep">
+                    <div className="shlap sixhsip">
                         <OnlyImageHorizontalPro
 
                             slhImages={SecondHLProarray[5].slhImages} />
                     </div>
-                    <div className="shlap slhlastpro">
+                    <div className="shlap sixhsip">
                         <OnlyImageHorizontalPro
 
                             slhImages={SecondHLProarray[6].slhImages} />
                     </div>
+                    <div className="shlap">
+                        <OnlyImageHorizontalPro
+
+                            slhImages={SecondHLProarray[7].slhImages} />
+                    </div>
+
 
 
                 </div>
             </div>
         </div>
     )
-
 }
 
-export default SixLineHorizontal
+export default EightLHP

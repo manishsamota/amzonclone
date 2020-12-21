@@ -6,6 +6,14 @@ import SignInSecurely from './SignInSecurely.js';
 import FirstLineHorizontal from './FirstLineHorizontal'
 import SecondLineHorizontal from './SecondLineHorizontal';
 import SixLineHorizontal from './SixLineHorizontal';
+import SevenHorizontalPro from './SevenHorizontalPro';
+import EightLHP from './EightLHP';
+import NineLHP from './NineLHP';
+import TwelfthLHPro from './TwelfthLHPro';
+import FooterPilo from './FooterPilo';
+import FBackToHomeIB from './FBackToHomeIB';
+import FooterPaFistpro from './FooterPaFistpro';
+
 
 function Home() {
     const prductlistarray =[
@@ -72,7 +80,7 @@ function Home() {
 
     return (
         <div>     
-               <div className='home'>
+        <div className='home' id="home_top">
             <div className="home_container" >
                 <img className="home_image" src="https://m.media-amazon.com/images/G/31/img20/Shoes/December/SSW/3000x770-PC_ENGLISH._CB413166242_.jpg" alt="" />
             </div>
@@ -80,7 +88,7 @@ function Home() {
 
   {/* first row is started */}
 
-<div className="home_row"> 
+<div className="home_row" > 
       <div className="first_box_product">       
         <Product 
         title ={prductlistarray[0].title}
@@ -246,29 +254,160 @@ function Home() {
         {/*Horizontal line six end  */}
 
         {/* Horizontal line seven start  */}
+<SevenHorizontalPro />
 
         {/*Horizontal line seven end  */}
+        
 
         {/* Horizontal line eight start  */}
+        <div className="eightlhpd">
+          <div className="hlfive">
+            <div className="hlfivefirstpro">
+              <Product
+                title={prductlistarray[0].title}
+                image1={prductlistarray[0].image1}
+                image2={prductlistarray[0].image2}
+                image3={prductlistarray[0].image3}
+                image4={prductlistarray[0].image4}
+                subt1={prductlistarray[0].subt1}
+                subt2={prductlistarray[0].subt2}
+                subt3={prductlistarray[0].subt3}
+                subt4={prductlistarray[0].subt4}
+              />
+            </div>
 
-        {/*Horizontal line eight end  */}
+            <div className="hlfiveallpro">
+              <Product
+                title={prductlistarray[0].title}
+                image1={prductlistarray[0].image1}
+                image2={prductlistarray[0].image2}
+                image3={prductlistarray[0].image3}
+                image4={prductlistarray[0].image4}
+                subt1={prductlistarray[0].subt1}
+                subt2={prductlistarray[0].subt2}
+                subt3={prductlistarray[0].subt3}
+                subt4={prductlistarray[0].subt4}
+              />
+            </div>
 
+            <div className="hlfiveallpro">
+              <Product
+                title={prductlistarray[0].title}
+                image1={prductlistarray[0].image1}
+                image2={prductlistarray[0].image2}
+                image3={prductlistarray[0].image3}
+                image4={prductlistarray[0].image4}
+                subt1={prductlistarray[0].subt1}
+                subt2={prductlistarray[0].subt2}
+                subt3={prductlistarray[0].subt3}
+                subt4={prductlistarray[0].subt4}
+              />
+            </div>
+
+            <div className="last_box_product">
+              <Product
+                title={prductlistarray[0].title}
+                image1={prductlistarray[0].image1}
+                image2={prductlistarray[0].image2}
+                image3={prductlistarray[0].image3}
+                image4={prductlistarray[0].image4}
+                subt1={prductlistarray[0].subt1}
+                subt2={prductlistarray[0].subt2}
+                subt3={prductlistarray[0].subt3}
+                subt4={prductlistarray[0].subt4}
+              />
+            </div>
+
+
+          </div>
+        </div>
+        {/*Horizontal line eight end  */}   
+          
         {/* Horizontal line nine start  */}
-
+         
+         <EightLHP />
         {/*Horizontal line nine end  */}
 
         {/* Horizontal line 10 start  */}
-
+        <NineLHP />
         {/*Horizontal line 10 end  */}
 
         {/* Horizontal line 11 start  */}
+        <div className="ninelhpd">
+          <div className="elevenlhpro">
+            <div className="elevefirstpro">
+              <Product
+                title={prductlistarray[0].title}
+                image1={prductlistarray[0].image1}
+                image2={prductlistarray[0].image2}
+                image3={prductlistarray[0].image3}
+                image4={prductlistarray[0].image4}
+                subt1={prductlistarray[0].subt1}
+                subt2={prductlistarray[0].subt2}
+                subt3={prductlistarray[0].subt3}
+                subt4={prductlistarray[0].subt4}
+              />
+            </div>
 
-        {/*Horizontal line 11 end  */}
+            <div className="hlnineallpro">
+              <Product
+                title={prductlistarray[0].title}
+                image1={prductlistarray[0].image1}
+                image2={prductlistarray[0].image2}
+                image3={prductlistarray[0].image3}
+                image4={prductlistarray[0].image4}
+                subt1={prductlistarray[0].subt1}
+                subt2={prductlistarray[0].subt2}
+                subt3={prductlistarray[0].subt3}
+                subt4={prductlistarray[0].subt4}
+              />
+            </div>
 
-        {/* Horizontal line 12 start  */}
+            <div className="hlnineallpro">
+              <ProductFullImage
+                title1={prductlistarray[4].title1}
+                image5={prductlistarray[4].image5}
+              />
+            </div>
 
-        {/*Horizontal line 13 end  */}
-        <menu />
+            <div className="hlnineallpro">
+              <ProductFullImage
+                title1={prductlistarray[4].title1}
+                image5={prductlistarray[4].image5}
+              />
+            </div>
+      </div>
+        </div>
+
+       {/*Horizontal line 11 end  */}
+
+
+        {/* Horizontal line TwelfthLHPro start  */}
+        <div className="twelfthpro">
+          <TwelfthLHPro />
+        </div>
+
+        {/*Horizontal line 12 end  */}
+
+
+          {/* footer pilo start */}
+
+        <FooterPilo />
+
+          {/* footer pilo end */}
+       
+{/* Back to home start */}
+
+<FBackToHomeIB />
+        
+{/* Back to home end */}
+
+  {/* FooterPaFistpro  start*/}
+  
+        <FooterPaFistpro />
+
+ {/* FooterPaFistpro end */}
+
        
 </div>
 

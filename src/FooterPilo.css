@@ -1,0 +1,43 @@
+.FooterPilo_main{
+    background-color: white;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.fooPoTitle{
+   border: 0.2px solid #888888;
+  border-radius: 5px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+  /* padding-top: 1px; */
+   padding: 10px 10px 30px 30px;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+    color: #444;
+    font-weight: 400;
+     width: 97.1%;
+    white-space: now;
+    /* margin-left :15px; */
+}
+.fooptanda{
+    display: flex;
+   
+}
+.fopoenp{
+     font-style: italic;
+     font-weight: 510;
+     color: #000;
+     margin-top: 20px;
+     font-size: 13px;
+}
+
+.fopoenpa{
+    display: flex;
+    font-weight: 600;
+    margin-left: 700px;
+    justify-content: flex-start;
+    font-size: 40px!important;
+    }
+
+   

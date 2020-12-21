@@ -1,0 +1,17 @@
+.BTTmain{ 
+
+background-color:  #232F3E;  display: block;
+text-align: center;
+color:white;
+padding: 15px 0;
+line-height: 19px;
+font-size: 13px;
+
+}
+.BTTmainfirst :hover{
+   background-color:  #37475A;
+}
+
+.btta{
+    color:white;
+}
