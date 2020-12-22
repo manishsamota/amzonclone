@@ -170,9 +170,10 @@ function FooterPaFistpro() {
                         <img className='ff_header_logo' src='https://pngimg.com/uploads/amazon/amazon_PNG11.png' />
                 </a>
            </div>
-             <div className="ff_Ch_la">
-               
 
+ {/* Dropwon start */}
+    <div className="ff_Ch_la">
+            
     <div class="ff_l_dropdown">
         <button class="dropbtn">
           <LanguageIcon className="lan_mui_ic" 
@@ -206,6 +207,7 @@ function FooterPaFistpro() {
              Amazon.in.
        </div>
          <a  className="drop_c1_a"href="">Change country/region </a>
+       
         </div>
     </div> 
 

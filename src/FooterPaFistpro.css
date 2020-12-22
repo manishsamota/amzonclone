@@ -79,6 +79,9 @@
     padding-left: 100px;
 }
 
+
+/* Drop down start  */
+
 .ff_alI{
     width: 100px;
     padding-top: 30px;
@@ -107,6 +110,8 @@
 
         margin-bottom: 50px;
     }
+
+
 
   .ff_l_dropdown {
   float: center;
@@ -142,6 +147,9 @@
     padding-left: 10px;
     color: #ddd;
 }
+
+
+/* Drop down start  */
 
 .ff_l_dropdown-content a {
   float: none;
@@ -185,6 +193,7 @@ font-size:13px !important;
      
 }
 
+/* Drop down end */
 
 .f_conu_n_A{
     display: flex;
@@ -226,6 +235,7 @@ font-size:13px !important;
 }
 
 /*Country's name list style end  */
+
 
 /* Services list style start */
 

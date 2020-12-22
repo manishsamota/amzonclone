@@ -7,17 +7,71 @@ position: sticky;
 top: 0;
 z-index: 100;
 }
+
  .header_logo{
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
     margin-top: 18px;
 }
+
+
+
+.flex{
+    display: flex !important;
+    
+}
+.inline-grid{
+   display:inline-grid;
+}
+
+.global_loc_a{
+    
+    color: white !important;
+    padding:0px 10px 0px 10px;
+}
+
+.global_loc_w2{
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+
+.dropdown_main {
+ 
+    background-color: #ddd !important;
+ /* min-width: 100% !important; */
+  background-size: auto;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.dropdown_main :hover{
+    border: 1px sold #cd9042;
+}
+
+.drop_op1{
+   background-color: #ddd !important;
+    border: none; 
+    /* max-width: 100px !important; */
+}
+
+.drop_op1 :hover{
+   background-color: #ddd !important;
+    border: none; 
+}
+
+.drop_cat_things{
+  padding: 5.7px;
+    
+}
+
+
 .header_search{
     display: flex;
     flex: 1;
     align-items: center;
     border-radius: 24px;
+    padding: 0px 10px 0px 0px;
 }
 .header_searchInput{
      height: 12px;
@@ -34,22 +88,87 @@ background-color: #cd9042;
   
 }
 
+
+/* Header lang drop down start */
+.HL_drop_sine{
+    color: #ddd;
+    padding: 0px 2px 0px 2px;
+}
+
+.HLdropbtn {
+  font-size: 16px;
+  border: none;
+   background-color: #131921 !important;
+   padding-bottom: 13px;
+   padding-top: 20px;
+}
+
+
+.HLdropdown-content {
+  display: none;
+  position: absolute;
+  color: #131921 !important;
+  background-color:white;
+  min-width: 220px;
+  font-weight: normal;
+  /* max-width: 200px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.HLdropdown-content a {
+   float: none;
+  color: #131921 !important;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.HLdropdown-content a:hover{
+    
+   cursor: pointer;
+   color: #C7511F !important;
+
+}
+#drop_HL_C_a{
+  color:#007185 !important;
+   
+}
+#drop_HL_C_a:hover{
+     text-decoration: underline 1px solid #C7511F !important;
+     
+}
+
+.HLdropdown:hover .HLdropdown-content {
+    display: block;
+}
+
+
+.HLbfI{
+    width:20px !important;
+      
+}
+
+/* Header lang HLdrop down end */
+
+
 .header_optionLineOne{
-    font-size: 10px;
+
+	font-size: 12px;
+	line-height: 14px;
+	height: 14px;
+	font-weight: 400;
+	margin-top: 9px;
 }
+
 .header_optionLineTwo{
-    font-size: 13px;
-    font-weight: 800;
+    font-size:15;
+    font-weight:700;
+    padding-left:10;
+    padding-right:10;
 }
-.header_optionBasket{
-    display: flex;
-    align-items: center;
-    color: white;
-}
-.header_basketCount{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 .header_nav{
     display:flex;
     justify-content: space-evenly;
@@ -62,3 +181,44 @@ background-color: #cd9042;
     margin-right: 10px;
     color: white;
 }
+
+
+/* Shpping cart start */
+
+.header_optionBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 0px 0px 40px  ;
+}
+.header_basketCount{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+.Sho_bas{
+    font-size: 30px !important;
+}
+
+.header_optionBasket_opt{
+     display: flex-grid;
+       align-items: center;
+    color: white;
+    line-height: 70% !important;
+}
+
+.SHdispay-flex{
+    display: flex !important;
+}
+
+.SH_header_basketCount{
+    color: #C7511F !important;
+}
+
+.Header_shpping_Cart_W{
+    padding: 20px 30px 0px 5px;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+}
+
+/* Shopping cart end */

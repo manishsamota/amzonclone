@@ -1,0 +1,42 @@
+.Header_Second_main{
+   background-color:#1d252f;
+   color: white;
+   display: flex;
+
+}
+
+.HS_Tc_ser{
+   display: flex;
+   padding: 8px 0px 5px 5px;
+  
+}
+
+.HS_TC_div_2{
+   padding: 0px 5px 0px 0px;
+}
+.HS_div_a{
+   color: #fff !important;
+   padding: 2px 2px 2px 2px; 
+   font-size: 14px !important;
+   font-weight: 600;
+   
+}
+.toggle_bar{
+font-size:17px;
+padding-left: 2px;
+}
+
+.HS_div_a:hover{
+  
+ border : 1px solid #ddd !important;
+ border-radius: 3px !important;
+ /* padding: 12px 12px 12px 12px !important; */
+ text-transform: none;
+ text-decoration: none;
+ 
+}
+
+.mirza{
+padding: 0px 0px 0px 70px !important;
+}
+
