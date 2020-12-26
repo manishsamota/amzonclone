@@ -33,11 +33,16 @@ function Home() {
 
         {
             title:"Top picks for your home",
-            image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
-            image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
-            image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
-            image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
-        },
+          image1:"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Desktop_QC_tile_graphic_186x116_1._SY116_CB414480869_.jpg",
+          image2:"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Desktop_QC_tile_graphic_372x232_2._SY116_CB414480869_.jpg",
+          image3:"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Desktop_QC_tile_graphic_186x116_4._SY116_CB414480869_.jpg",
+          image4:"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Desktop_QC_tile_graphic_186x116_3._SY116_CB414480869_.jpg",
+          subt1: "ACs",
+          subt2: "Washing machines",
+          subt3: "Televisions",
+          subt4: "Refrigerators",
+        
+          },
         
          {
             title:"Top picks for your home",
@@ -51,7 +56,7 @@ function Home() {
             image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
             image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
             image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
-            image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
+           image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
         },
          {
             title1:"For a productive home office",
@@ -103,15 +108,15 @@ function Home() {
         />                
       </div>
       <Product 
-        title ={prductlistarray[0].title}
-        image1={prductlistarray[0].image1}
-        image2={prductlistarray[0].image2}
-        image3={prductlistarray[0].image3}
-        image4={prductlistarray[0].image4}
-        subt1={prductlistarray[0].subt1}
-        subt2={prductlistarray[0].subt2}
-        subt3={prductlistarray[0].subt3}
-        subt4={prductlistarray[0].subt4}
+        title ={prductlistarray[1].title}
+        image1={prductlistarray[1].image1}
+        image2={prductlistarray[1].image2}
+        image3={prductlistarray[1].image3}
+        image4={prductlistarray[1].image4}
+        subt1={prductlistarray[1].subt1}
+        subt2={prductlistarray[1].subt2}
+        subt3={prductlistarray[1].subt3}
+        subt4={prductlistarray[1].subt4}
         />
          <Product 
         title ={prductlistarray[0].title}

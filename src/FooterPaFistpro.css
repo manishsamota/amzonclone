@@ -10,7 +10,7 @@
 }
 
 .ffall_box{
-    padding: 30px 0 30px 0;
+    padding: 10px 0 10px 0;
     display: flex;
     justify-content: flex-start;
     text-align: left;
@@ -84,7 +84,7 @@
 
 .ff_alI{
     width: 100px;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 200px;
 }
 
@@ -98,7 +98,7 @@
  .ff_Aaiandl{
        
         display: flex;
-        padding:30px 0px 0px 600px;
+        padding:20px 0px 0px 600px;
         font-size: 14px;
     }
     .ff_faI{
@@ -199,7 +199,7 @@ font-size:13px !important;
     display: flex;
     color: white !important;
     padding: 2px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .f_conu_n_A_e_first{
