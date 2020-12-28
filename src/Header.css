@@ -101,6 +101,7 @@ background-color: #cd9042;
    background-color: #131921 !important;
    padding-bottom: 13px;
    padding-top: 20px;
+   max-height: 50px;
 }
 
 
@@ -146,7 +147,9 @@ background-color: #cd9042;
 
 
 .HLbfI{
-    width:20px !important;
+   max-width:20px !important;
+   min-width: 20px;
+   max-height: 20px;
       
 }
 

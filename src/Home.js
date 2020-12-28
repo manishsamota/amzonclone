@@ -18,6 +18,7 @@ import FooterPaFistpro from './FooterPaFistpro';
 function Home() {
     const prductlistarray =[
         { 
+            id:0,
             title:"Home essentials | Amazon Brands & more",
            
             image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
@@ -31,7 +32,7 @@ function Home() {
 
         },
 
-        {
+        {   id:1,
             title:"Top picks for your home",
           image1:"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Desktop_QC_tile_graphic_186x116_1._SY116_CB414480869_.jpg",
           image2:"https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/Desktop_QC_tile_graphic_372x232_2._SY116_CB414480869_.jpg",
@@ -44,20 +45,31 @@ function Home() {
         
           },
         
-         {
-            title:"Top picks for your home",
-            image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
-            image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
-            image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
-            image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
-        },
-         {
-            title:"Top picks for your home",
-            image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
-            image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-4_186x116._SY116_CB430773130_.jpg",
-            image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-2_186x116._SY116_CB430773130_.jpg",
-           image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-3_186x116._SY116_CB430773130_.jpg"
-        },
+         { id:2,
+           title:"20%-70% off | Daily essentials",
+           image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/Grocery/GW/1x_2._SY116_CB433219942_.jpg",
+           image2:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/Grocery/GW/1x_3._SY116_CB433219942_.jpg",
+           image3:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/Grocery/GW/1x_1._SY116_CB433219942_.jpg",
+           image4:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/Grocery/GW/1x_4._SY116_CB433219942_.jpg",
+           subt1: "Grocery essentials",
+           subt2: "Masks & personal hygiene",
+           subt3: "Household supplies & personal carex",
+           subt4: "Baby essentials & pet supplies",       
+        
+          },
+
+      {  id:3,
+        title: "Professional tools, testing & more",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/Tools1x._SY116_CB424026090_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2020/GW/Testing_186x116._SY116_CB406506816_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/Jan_san1_186x116._SY116_CB406505878_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/med1x._SY116_CB424026091_.jpg",
+        subt1: "Professional tools",
+        subt2: "Measuring instruments",
+        subt3: "Cleaning supplies",
+        subt4: "Medical supplies",
+
+      },
          {
             title1:"For a productive home office",
             image5:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/GW/Dashboard/WFH_GW_DC_379x304._SY304_CB417122473_.jpg"
@@ -119,15 +131,15 @@ function Home() {
         subt4={prductlistarray[1].subt4}
         />
          <Product 
-        title ={prductlistarray[0].title}
-        image1={prductlistarray[0].image1}
-        image2={prductlistarray[0].image2}
-        image3={prductlistarray[0].image3}
-        image4={prductlistarray[0].image4}
-        subt1={prductlistarray[0].subt1}
-        subt2={prductlistarray[0].subt2}
-        subt3={prductlistarray[0].subt3}
-        subt4={prductlistarray[0].subt4}
+        title ={prductlistarray[2].title}
+        image1={prductlistarray[2].image1}
+        image2={prductlistarray[2].image2}
+        image3={prductlistarray[2].image3}
+        image4={prductlistarray[2].image4}
+        subt1={prductlistarray[2].subt1}
+        subt2={prductlistarray[2].subt2}
+        subt3={prductlistarray[2].subt3}
+        subt4={prductlistarray[2].subt4}
         />
 
       <div className="last_box_product"> 
@@ -143,15 +155,15 @@ function Home() {
 <div className="home_row"> 
       <div className="first_box_product">       
         <Product 
-        title ={prductlistarray[0].title}
-        image1={prductlistarray[0].image1}
-        image2={prductlistarray[0].image2}
-        image3={prductlistarray[0].image3}
-        image4={prductlistarray[0].image4}
-        subt1={prductlistarray[0].subt1}
-        subt2={prductlistarray[0].subt2}
-        subt3={prductlistarray[0].subt3}
-        subt4={prductlistarray[0].subt4}
+        title ={prductlistarray[3].title}
+        image1={prductlistarray[3].image1}
+        image2={prductlistarray[3].image2}
+        image3={prductlistarray[3].image3}
+        image4={prductlistarray[3].image4}
+        subt1={prductlistarray[3].subt1}
+        subt2={prductlistarray[3].subt2}
+        subt3={prductlistarray[3].subt3}
+        subt4={prductlistarray[3].subt4}
         />                
       </div>
 

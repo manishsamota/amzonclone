@@ -8,8 +8,8 @@
     width: 100%;
     max-width: 330px;
     min-width: 320px;
-    max-height: 380px !important;
-    min-height: 380px !important;
+    max-height: 390px !important;
+    min-height: 390px !important;
     background-color: white;
     z-index: 10;
     box-shadow: 2px 2px 2px #fff;
@@ -29,6 +29,7 @@
 .product_imgages_line_one,
 .product_imgages_line_two {
     display: flex;
+    padding: 8px 0px 0px 0px;
     
 }
 .product_images{
@@ -44,3 +45,9 @@ max-width: 150px;
    font-size: 12px !important;
    line-height: 18px !important;
 }
+
+.pro_last_link{
+  
+   padding:5px 0px 0px 0px;
+}
+

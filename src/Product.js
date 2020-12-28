@@ -46,7 +46,7 @@ function Product({title, image1, image2, image3,image4, subt1, subt2,subt3,subt4
         </div>
     </div>
    
-     <div>    
+            <div className="pro_last_link">    
             <a href="">See more</a>
       </div>
      
