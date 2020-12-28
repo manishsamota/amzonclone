@@ -70,10 +70,70 @@ function Home() {
         subt4: "Medical supplies",
 
       },
-         {
+       
+        {  id:4,
             title1:"For a productive home office",
             image5:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/GW/Dashboard/WFH_GW_DC_379x304._SY304_CB417122473_.jpg"
          },
+
+      {
+        id: 5,
+        title: "Automotive essentials | Up to 60% off",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_372x232._SY116_CB405083904_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Tyre_372x232._SY116_CB405083904_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Pressurewasher_372x232._SY116_CB405083904_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Protective_gear_372x232._SY116_CB405083904_.jpg",
+        subt1: "Helmets",
+        subt2: "Tyres",
+        subt3: "Pressure washers",
+        subt4: "Protective gear",
+
+      },
+
+      {
+        id: 6,
+        title1: "Chocolates, sweets & more",
+        image5: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Grocery/GW/Chocolates_PC_CC_379x304_V2._SY304_CB404777310_.jpg"
+      },
+     
+      {
+        id: 7,
+        title1: "For efficient home working",
+        image5: "https://images-eu.ssl-images-amazon.com/images/G/31/IMG19/Furniture/MSO/WFH_379x304._SY304_CB430182042_.jpg"
+      },
+      {
+        id: 8,
+        title: "For the perfect birthday celebration",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/BirthdayStore/GW/gifts-by-interest_1x._SY116_CB415005894_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/BirthdayStore/GW/most-gifted_1x._SY116_CB415005895_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/BirthdayStore/GW/gift-cards_1x._SY116_CB415005895_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Events/BirthdayStore/GW/decorations_1x._SY116_CB415005894_.jpg",
+        subt1: "Gifts by interest",
+        subt2: "Most-gifted",
+        subt3: "Gift Cards",
+        subt4: "Decorations",
+
+      },
+      {
+        id: 9,
+        title: "Amazon Fashion | Top Brands",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/GW-BAU/QC/PC/5._SY116_CB416800329_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/GW-BAU/QC/PC/6._SY116_CB416800329_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/GW-BAU/QC/PC/1._SY116_CB416800329_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/GW-BAU/QC/af._SY116_CB416766228_.jpg",
+        subt1: "Clothing",
+        subt2: "Footwear",
+        subt3: "Bags, watches & more",
+        subt4: "View all fashion",
+
+      },
+
+      {
+        id: 10,
+        title1: "Luxury ayurveda products",
+        image5: "https://images-eu.ssl-images-amazon.com/images/G/31/img19/Beauty/GW/desktop/Luxury-Category-card-1x._SY304_CB448731790_.jpg"
+      },
+      
 
     ]
     
@@ -173,30 +233,23 @@ function Home() {
    />
 
    <Product 
-        title ={prductlistarray[0].title}
-        image1={prductlistarray[0].image1}
-        image2={prductlistarray[0].image2}
-        image3={prductlistarray[0].image3}
-        image4={prductlistarray[0].image4}
-        subt1={prductlistarray[0].subt1}
-        subt2={prductlistarray[0].subt2}
-        subt3={prductlistarray[0].subt3}
-        subt4={prductlistarray[0].subt4}
+        title ={prductlistarray[5].title}
+        image1={prductlistarray[5].image1}
+        image2={prductlistarray[5].image2}
+        image3={prductlistarray[5].image3}
+        image4={prductlistarray[5].image4}
+        subt1={prductlistarray[5].subt1}
+        subt2={prductlistarray[5].subt2}
+        subt3={prductlistarray[5].subt3}
+        subt4={prductlistarray[5].subt4}
         />  
 
    <div className="last_box_product"> 
 
-            <Product 
-        title ={prductlistarray[0].title}
-        image1={prductlistarray[0].image1}
-        image2={prductlistarray[0].image2}
-        image3={prductlistarray[0].image3}
-        image4={prductlistarray[0].image4}
-        subt1={prductlistarray[0].subt1}
-        subt2={prductlistarray[0].subt2}
-        subt3={prductlistarray[0].subt3}
-        subt4={prductlistarray[0].subt4}
-        />  
+            <ProductFullImage
+              title1={prductlistarray[6].title1}
+              image5={prductlistarray[6].image5}
+            /> 
       </div>
 </div>
  
@@ -213,50 +266,43 @@ function Home() {
 <div className="hlfive">
           <div className="hlfivefirstpro">
           <ProductFullImage
-            title1={prductlistarray[4].title1}
-            image5={prductlistarray[4].image5}
+            title1={prductlistarray[7].title1}
+            image5={prductlistarray[7].image5}
           />
           </div>
 
           <div className="hlfiveallpro">
             <Product
-              title={prductlistarray[0].title}
-              image1={prductlistarray[0].image1}
-              image2={prductlistarray[0].image2}
-              image3={prductlistarray[0].image3}
-              image4={prductlistarray[0].image4}
-              subt1={prductlistarray[0].subt1}
-              subt2={prductlistarray[0].subt2}
-              subt3={prductlistarray[0].subt3}
-              subt4={prductlistarray[0].subt4}
+              title={prductlistarray[8].title}
+              image1={prductlistarray[8].image1}
+              image2={prductlistarray[8].image2}
+              image3={prductlistarray[8].image3}
+              image4={prductlistarray[8].image4}
+              subt1={prductlistarray[8].subt1}
+              subt2={prductlistarray[8].subt2}
+              subt3={prductlistarray[8].subt3}
+              subt4={prductlistarray[8].subt4}
             /> 
           </div>
 
           <div className="hlfiveallpro">
             <Product
-              title={prductlistarray[0].title}
-              image1={prductlistarray[0].image1}
-              image2={prductlistarray[0].image2}
-              image3={prductlistarray[0].image3}
-              image4={prductlistarray[0].image4}
-              subt1={prductlistarray[0].subt1}
-              subt2={prductlistarray[0].subt2}
-              subt3={prductlistarray[0].subt3}
-              subt4={prductlistarray[0].subt4}
+              title={prductlistarray[9].title}
+              image1={prductlistarray[9].image1}
+              image2={prductlistarray[9].image2}
+              image3={prductlistarray[9].image3}
+              image4={prductlistarray[9].image4}
+              subt1={prductlistarray[9].subt1}
+              subt2={prductlistarray[9].subt2}
+              subt3={prductlistarray[9].subt3}
+              subt4={prductlistarray[9].subt4}
             />
           </div>
 
           <div className="last_box_product">
-            <Product
-              title={prductlistarray[0].title}
-              image1={prductlistarray[0].image1}
-              image2={prductlistarray[0].image2}
-              image3={prductlistarray[0].image3}
-              image4={prductlistarray[0].image4}
-              subt1={prductlistarray[0].subt1}
-              subt2={prductlistarray[0].subt2}
-              subt3={prductlistarray[0].subt3}
-              subt4={prductlistarray[0].subt4}
+            <ProductFullImage
+              title1={prductlistarray[10].title1}
+              image5={prductlistarray[10].image5}
             />
           </div>
 
