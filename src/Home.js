@@ -18,7 +18,7 @@ import FooterPaFistpro from './FooterPaFistpro';
 function Home() {
     const prductlistarray =[
         { 
-            id:0,
+            id:16,
             title:"Home essentials | Amazon Brands & more",
            
             image1:"https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/2-1_186x116._SY116_CB430773131_.jpg",
@@ -128,12 +128,101 @@ function Home() {
 
       },
 
+        {
+          id: 10,
+          title1: "Luxury ayurveda products",
+          image5: "https://images-eu.ssl-images-amazon.com/images/G/31/img19/Beauty/GW/desktop/Luxury-Category-card-1x._SY304_CB448731790_.jpg"
+        },
       {
-        id: 10,
-        title1: "Luxury ayurveda products",
-        image5: "https://images-eu.ssl-images-amazon.com/images/G/31/img19/Beauty/GW/desktop/Luxury-Category-card-1x._SY304_CB448731790_.jpg"
+        id: 11,
+        title: "Kitchen & home appliances",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2019/img/Kitchen/XCM_Manual_186x116_1198911XCM_Manual_1198911_991932_IN_Kitchen_PC_Dashboard_cards__2_1573726444_jpg_LOWER_QL85_._SY116_CB446704968_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2019/img/Kitchen/XCM_Manual_186x116_1198911XCM_Manual_1198911_991932_IN_Kitchen_PC_Dashboard_cards__1573726444_jpg_LOWER_QL85_._SY116_CB446704971_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2019/img/Kitchen/XCM_Manual_186x116_1198911XCM_Manual_1198911_991932_IN_Kitchen_PC_Dashboard_cards__3_1573726444_jpg_LOWER_QL85_._SY116_CB446704968_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/IN-hq/2019/img/Kitchen/XCM_Manual_186x116_1198911XCM_Manual_1198911_991932_IN_Kitchen_PC_Dashboard_cards_372x232_4_1573726444_jpg_LOWER_QL85_._SY116_CB446704960_.jpg",
+        subt1: "Geysers",
+        subt2: "Water purifiers",
+        subt3: "Mixer grinders",
+        subt4: "Air purifiers",
+
       },
-      
+      {
+        id:12,
+        title: "Up to 60% off | Kitchen & home essentials",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/kitchen/GW/a-186._SY116_CB416753468_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/kitchen/GW/C-186._SY116_CB416753468_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/kitchen/GW/D-186._SY116_CB416753468_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/kitchen/GW/B-186._SY116_CB416753468_.jpg",
+        subt1: "Cooking essentials",
+        subt2: "Kitchen appliances",
+        subt3: "Home appliances",
+        subt4: "Dinnerware & serveware",
+
+      },
+      {
+        id:13,
+        title: "Women's ethnic wear | Up to 60% off",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/WRS_PC_June16/Womensethnic_PC_QC_June16/1x_Desktop_Quad_card_w_title_-_Card_1_copy_3._SY116_CB429610642_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/EOSS_June/PC_QC/1x_Desktop_Quad_card_w_title_-_Card_2_copy_3._SY116_CB428340806_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/EOSS_June/PC_QC/1x_Desktop_Quad_card_w_title_-_Card_3_copy_3._SY116_CB428340801_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/EOSS_June/PC_QC/1x_Desktop_Quad_card_w_title_-_Card_4_copy_3._SY116_CB428340801_.jpg",
+        subt1: "Clothing",
+        subt2: "Footwear",
+        subt3: "Fashion jewellery",
+        subt4: "Precious jewellery",
+
+      },
+      {
+        id:14,
+        title: "Pick from these types of masks",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/WRS__Masksstore_PCQC/1X1._SY116_CB429488905_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/WRS__Masksstore_PCQC/1X2._SY116_CB429488904_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/WRS__Masksstore_PCQC/1X3._SY116_CB429488904_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Fashion/WRS__Masksstore_PCQC/1X4._SY116_CB429488904_.jpg",
+        subt1: "N95 Masks & respirators",
+        subt2: "Cloth masks",
+        subt3: "Face coverings",
+        subt4: "View the mask store ",
+
+      },
+      {
+        id:15,
+        title: "Computing essentials for multi-tasking at home",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/GW/MSO/V201712426_IN_CEPC_GW_essentials_May20_rush_dbqc0.5x_1._SY116_CB417295138_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/GW/MSO/V201712426_IN_CEPC_GW_essentials_May20_rush_dbqc0.5x._SY116_CB417295138_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/GW/MSO/V201712426_IN_CEPC_GW_essentials_May20_rush_dbqc0.5x_3._SY116_CB417295138_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/CEPC/GW/MSO/V201712426_IN_CEPC_GW_essentials_May20_rush_dbqc0.5x_2._SY116_CB417295138_.jpg",
+        subt1: "Monitors",
+        subt2: "Hard drives",
+        subt3: "Routers & hotspots",
+        subt4: "Components",
+
+      },
+      {
+        id:16,
+        title: "Beauty products",
+        image1: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Beauty/Beauty_BAY-186x116_QC-Makeup._SY116_CB431333301_.jpg",
+        image2: "https://images-eu.ssl-images-amazon.com/images/G/31/img19/Beauty/GW/desktop/November/BeautyBAY-186x116QC-Haircare._SY116_CB448752655_.jpg",
+        image3: "https://images-eu.ssl-images-amazon.com/images/G/31/img19/Beauty/GW/desktop/November/BeautyBAY-186x116QC-Makeup._SY116_CB448752655_.jpg",
+        image4: "https://images-eu.ssl-images-amazon.com/images/G/31/img20/Beauty/Beauty_BAY-186x116_QC--Makeup._SY116_CB431333301_.jpg",
+        subt1: "Skin care",
+        subt2: "Hair care",
+        subt3: "Makeup",
+        subt4: "Luxury beauty",
+
+      },
+
+      {
+        id: 17,
+        title1: "Up to 45% off | Air conditioners",
+        image5: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Home/LA/GWdesktopcards/Desktop-category-card-adapt_379x304._SY304_CB448536033_.jpg"
+      },
+      {
+        id:18,
+        title1: "Masks, sanitizers & more",
+        image5: "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2020/GW/PSS_260x260._SY304_CB429046195_.jpg"
+      },
+     
 
     ]
     
@@ -327,57 +416,57 @@ function Home() {
           <div className="hlfive">
             <div className="hlfivefirstpro">
               <Product
-                title={prductlistarray[0].title}
-                image1={prductlistarray[0].image1}
-                image2={prductlistarray[0].image2}
-                image3={prductlistarray[0].image3}
-                image4={prductlistarray[0].image4}
-                subt1={prductlistarray[0].subt1}
-                subt2={prductlistarray[0].subt2}
-                subt3={prductlistarray[0].subt3}
-                subt4={prductlistarray[0].subt4}
+                title={prductlistarray[11].title}
+                image1={prductlistarray[11].image1}
+                image2={prductlistarray[11].image2}
+                image3={prductlistarray[11].image3}
+                image4={prductlistarray[11].image4}
+                subt1={prductlistarray[11].subt1}
+                subt2={prductlistarray[11].subt2}
+                subt3={prductlistarray[11].subt3}
+                subt4={prductlistarray[11].subt4}
               />
             </div>
 
             <div className="hlfiveallpro">
               <Product
-                title={prductlistarray[0].title}
-                image1={prductlistarray[0].image1}
-                image2={prductlistarray[0].image2}
-                image3={prductlistarray[0].image3}
-                image4={prductlistarray[0].image4}
-                subt1={prductlistarray[0].subt1}
-                subt2={prductlistarray[0].subt2}
-                subt3={prductlistarray[0].subt3}
-                subt4={prductlistarray[0].subt4}
+                title={prductlistarray[12].title}
+                image1={prductlistarray[12].image1}
+                image2={prductlistarray[12].image2}
+                image3={prductlistarray[12].image3}
+                image4={prductlistarray[12].image4}
+                subt1={prductlistarray[12].subt1}
+                subt2={prductlistarray[12].subt2}
+                subt3={prductlistarray[12].subt3}
+                subt4={prductlistarray[12].subt4}
               />
             </div>
 
             <div className="hlfiveallpro">
               <Product
-                title={prductlistarray[0].title}
-                image1={prductlistarray[0].image1}
-                image2={prductlistarray[0].image2}
-                image3={prductlistarray[0].image3}
-                image4={prductlistarray[0].image4}
-                subt1={prductlistarray[0].subt1}
-                subt2={prductlistarray[0].subt2}
-                subt3={prductlistarray[0].subt3}
-                subt4={prductlistarray[0].subt4}
+                title={prductlistarray[13].title}
+                image1={prductlistarray[13].image1}
+                image2={prductlistarray[13].image2}
+                image3={prductlistarray[13].image3}
+                image4={prductlistarray[13].image4}
+                subt1={prductlistarray[13].subt1}
+                subt2={prductlistarray[13].subt2}
+                subt3={prductlistarray[13].subt3}
+                subt4={prductlistarray[13].subt4}
               />
             </div>
 
             <div className="last_box_product">
               <Product
-                title={prductlistarray[0].title}
-                image1={prductlistarray[0].image1}
-                image2={prductlistarray[0].image2}
-                image3={prductlistarray[0].image3}
-                image4={prductlistarray[0].image4}
-                subt1={prductlistarray[0].subt1}
-                subt2={prductlistarray[0].subt2}
-                subt3={prductlistarray[0].subt3}
-                subt4={prductlistarray[0].subt4}
+                title={prductlistarray[14].title}
+                image1={prductlistarray[14].image1}
+                image2={prductlistarray[14].image2}
+                image3={prductlistarray[14].image3}
+                image4={prductlistarray[14].image4}
+                subt1={prductlistarray[14].subt1}
+                subt2={prductlistarray[14].subt2}
+                subt3={prductlistarray[14].subt3}
+                subt4={prductlistarray[14].subt4}
               />
             </div>
 
@@ -400,43 +489,43 @@ function Home() {
           <div className="elevenlhpro">
             <div className="elevefirstpro">
               <Product
-                title={prductlistarray[0].title}
-                image1={prductlistarray[0].image1}
-                image2={prductlistarray[0].image2}
-                image3={prductlistarray[0].image3}
-                image4={prductlistarray[0].image4}
-                subt1={prductlistarray[0].subt1}
-                subt2={prductlistarray[0].subt2}
-                subt3={prductlistarray[0].subt3}
-                subt4={prductlistarray[0].subt4}
+                title={prductlistarray[15].title}
+                image1={prductlistarray[15].image1}
+                image2={prductlistarray[15].image2}
+                image3={prductlistarray[15].image3}
+                image4={prductlistarray[15].image4}
+                subt1={prductlistarray[15].subt1}
+                subt2={prductlistarray[15].subt2}
+                subt3={prductlistarray[15].subt3}
+                subt4={prductlistarray[15].subt4}
               />
             </div>
 
             <div className="hlnineallpro">
               <Product
-                title={prductlistarray[0].title}
-                image1={prductlistarray[0].image1}
-                image2={prductlistarray[0].image2}
-                image3={prductlistarray[0].image3}
-                image4={prductlistarray[0].image4}
-                subt1={prductlistarray[0].subt1}
-                subt2={prductlistarray[0].subt2}
-                subt3={prductlistarray[0].subt3}
-                subt4={prductlistarray[0].subt4}
+                title={prductlistarray[16].title}
+                image1={prductlistarray[16].image1}
+                image2={prductlistarray[16].image2}
+                image3={prductlistarray[16].image3}
+                image4={prductlistarray[16].image4}
+                subt1={prductlistarray[16].subt1}
+                subt2={prductlistarray[16].subt2}
+                subt3={prductlistarray[16].subt3}
+                subt4={prductlistarray[16].subt4}
               />
             </div>
 
             <div className="hlnineallpro">
               <ProductFullImage
-                title1={prductlistarray[4].title1}
-                image5={prductlistarray[4].image5}
+                title1={prductlistarray[17].title1}
+                image5={prductlistarray[17].image5}
               />
             </div>
 
             <div className="hlnineallpro">
               <ProductFullImage
-                title1={prductlistarray[4].title1}
-                image5={prductlistarray[4].image5}
+                title1={prductlistarray[18].title1}
+                image5={prductlistarray[18].image5}
               />
             </div>
       </div>
